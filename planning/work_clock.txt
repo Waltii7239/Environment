@@ -1,0 +1,10 @@
+
+
+idee 1:
+  das program nutzt eine unix comand um die momentane zeit zu speicher 
+  den aoutput speichert er in einer file, wenn das program das zwiete 
+  mal benutzt wirt nutzt er den gleichen comand um die momentane zeit 
+  zu wissen und rechnet dan die diverenz aus und speichert dise in einer 
+  datei wichtig die zeit datei mus die insgesamte zeit haben also wenn 
+  man am ersten tag 8h und am zwiete tag 7 arbeitet und man sich die insgesamt 
+  zeit ausgeben will sol 15h rauskommen es soll nur mit ints gerechnet werden 
