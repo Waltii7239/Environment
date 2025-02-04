@@ -2,7 +2,8 @@ import { Button, VerticalBox } from "std-widgets.slint";
 
 export component AppWindow inherits Window {
 
-    property <int> results;
+    in-out property <int> counter: 0;
+    callback button_clicked;
 
     VerticalLayout {
 
@@ -18,7 +19,7 @@ export component AppWindow inherits Window {
 
             font-size: 50px;
 
-            text: results;
+            text: counter;
         }
 
         HorizontalLayout {
@@ -41,7 +42,7 @@ export component AppWindow inherits Window {
                 height: 50px;
                 text: "9";
 
-                clicked => {results = 9}
+                clicked => {button_clicked();}
             }
             Button {
                 width: 75px;
