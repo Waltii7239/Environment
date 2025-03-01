@@ -53,6 +53,7 @@ export component AppWindow inherits Window {
                 height: 50px;
 
                 text: "/";
+                clicked => {button_clicked(15);}
             }
         }
         HorizontalLayout {
@@ -83,6 +84,7 @@ export component AppWindow inherits Window {
                 height: 50px;
 
                 text: "x";
+                clicked => {button_clicked(14);}
             }
         }
         HorizontalLayout {
@@ -113,6 +115,8 @@ export component AppWindow inherits Window {
                 height: 50px;
 
                 text: "-";
+                clicked => {button_clicked(12);}
+
             }
         }
         HorizontalLayout {
@@ -122,6 +126,8 @@ export component AppWindow inherits Window {
                 height: 50px;
 
                 text: "AC";
+                clicked => {button_clicked(11);}
+
             }
             Button {
                 width: 75px;
@@ -141,6 +147,8 @@ export component AppWindow inherits Window {
                 height: 50px;
 
                 text: "+";
+                clicked => {button_clicked(13);}
+
             }
         }
 
